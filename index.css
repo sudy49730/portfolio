@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@font-face {
+  font-family: "Quicksand";
+  src: local("Quicksand"), url(./fonts/Quicksand.ttf) format("truetype");
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Quicksand, Poppins;
+}
+
+*::-moz-selection {
+  background-color: #ffc107;
+}
+
+*::selection {
+  background-color: #ffc107;
+}
+
+@media (min-width: 300px) {
+  .container-padding {
+    padding: 10% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-padding {
+    padding: 4% !important;
+    margin-top: 3% !important;
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.white-text {
+  color: #fff !important;
+}
+
+.emphasis {
+  color: #ffc107;
+}
+
+.side-image {
+  position: fixed;
+  right: 0;
+  object-fit: cover;
+  width: inherit;
+  height: 100vh;
+}
+
+.logo {
+  width: 2.5vh;
+  margin-right: 2%;
+}
+
+.description {
+  font-size: 0.8rem;
+}
+
+.custom-nav-link {
+  color: #b3b3b3;
+  font-size: 1.5rem;
+  margin-right: 5%;
+}
+.active-custom-nav-link {
+  color: #ffc107;
+  font-size: 1.5rem;
+  margin-right: 5%;
+}
+.facebook {
+  background-color: #3b5998 !important;
+  color: #fff !important;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+.instagram {
+  background-color: #e1306c !important;
+  color: #fff !important;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+.whatsapp {
+  background-color: #20cc37 !important;
+  color: #fff !important;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+.linkedin {
+  background-color: #3b5998 !important;
+  color: #fff !important;
+  margin-right: 2%;
+  margin-top: 1%;
+}
