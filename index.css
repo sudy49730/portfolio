@@ -25,6 +25,9 @@
   .container-padding {
     padding: 10% !important;
   }
+  .custom-nav-link {
+    font-size: 1rem !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -32,10 +35,16 @@
     padding: 4% !important;
     margin-top: 3% !important;
   }
+  .custom-nav-link {
+    font-size: 1.5rem !important;
+  }
 }
 
 a {
   text-decoration: none !important;
+}
+a:hover {
+  color: #ffc107 !important;
 }
 
 .no-padding {
