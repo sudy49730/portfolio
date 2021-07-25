@@ -21,12 +21,9 @@
   background-color: #ffc107;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 300px) {
   .container-padding {
     padding: 10% !important;
-  }
-  .custom-nav-link {
-    font-size: 0.7rem !important;
   }
 }
 
@@ -35,16 +32,10 @@
     padding: 4% !important;
     margin-top: 3% !important;
   }
-  .custom-nav-link {
-    font-size: 1vw !important;
-  }
 }
 
 a {
   text-decoration: none !important;
-}
-a:hover {
-  color: #ffc107 !important;
 }
 
 .no-padding {
@@ -109,4 +100,8 @@ a:hover {
   color: #fff !important;
   margin-right: 2%;
   margin-top: 1%;
+}
+.resume-badge {
+  padding: 2% !important;
+  margin: 1% !important;
 }
