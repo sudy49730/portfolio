@@ -11,12 +11,12 @@ class SkillsComponent extends Component {
                         return (
                             <div className="col-md-4" key={index}>
                                 {
-                                    skill.svg.map((svg, index) => {
+                                    skill.svg.map((svg, i) => {
                                         return (
                                             <>
                                                 <img
                                                     alt={skill.altText}
-                                                    key={index}
+                                                    key={i}
                                                     className="logo"
                                                     src={require(`../../assets/logos/${svg.name}`).default}
                                                 />

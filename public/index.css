@@ -101,3 +101,7 @@ a {
   margin-right: 2%;
   margin-top: 1%;
 }
+.resume-badge {
+  padding: 2% !important;
+  margin: 1% !important;
+}

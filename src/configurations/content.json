@@ -1,6 +1,6 @@
 {
     "name": "Sudershan Singh",
-    "designation": "Associate Consultant",
+    "designation": "Full stack developer",
     "salutation": "Hello!",
     "about": "I'am a computer science graduate having 3 years of demonstrated corporate experience. Iam a self taught programmer and specialize in MEAN, MERN and Full stack development which involves nodeJs, ReactJS, Angular2+, expressJs and mongoDB. Currently working as associate consultant at Capgemini India.",
     "whatsapp": "+917568999246",
@@ -71,5 +71,107 @@
             "altText": "bootstrap",
             "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components."
         }
-    ]
+    ],
+    "clients": [
+        {
+            "name": "capgemini",
+            "logoName": "capgemini.jpg",
+            "description": "Capgemini SE is a French multinational information technology services and consulting company. It is headquartered in Paris, France. Capgemini has over 270,000 employees in over 50 countries, of whom nearly 125,000 are in India."
+        },
+        {
+            "name": "mcdonalds",
+            "logoName": "mcdonalds.jpg",
+            "description": " McDonald's Corporation is an American fast food company, founded in 1940 as a restaurant operated by Richard and Maurice McDonald, in San Bernardino, California, United States."
+        },
+        {
+            "name": "celebal",
+            "logoName": "celebal.jpg",
+            "description": "Celebal Technologies is a premier software services company in the field of Data Science, Big Data and Enterprise Cloud.The Company offers artificial intelligence and enterprise cloud services to its clients in India and the United States."
+        }
+    ],
+    "resume": {
+        "education": [
+            {
+                "title": "Bachelor of Technology (2015-2019)",
+                "college": "Poornima Institute of Engineering and Technology",
+                "place": "Jaipur, Rajasthan",
+                "degree": "Computer Science Engineering"
+            },
+            {
+                "title": "Senior Secondary (2014-2015)",
+                "college": "St. Anselm's Sr. Sec School",
+                "place": "Ajmer, Rajasthan",
+                "degree": "Physics, Chemistry, Math"
+            },
+            {
+                "title": "Secondary (2012-2013)",
+                "college": "St. Anselm's Sr. Sec School",
+                "place": "Ajmer, Rajasthan",
+                "degree": "Common Subjects"
+            }
+        ],
+        "projects": [
+            {
+                "title": "Homebrew",
+                "description": "Homebrew is a product toolset designed and developed for McDonald's kiosk application, it helps out developers with their day to day activities."
+            },
+            {
+                "title": "Vivid",
+                "description": "Vivid is a simple social network built on top of React Js. Having features such as liking commenting and updating status."
+            },
+            {
+                "title": "InstaBot",
+                "description": "An automation script written in Python that mimics the browsing experience of an actual user. A fun project for fetching more likes and followers."
+            },
+            {
+                "title": "WatchDog",
+                "description": "A native spyware application written in Java using Android studios. It is capable of stealing call logs, device information, pictures, and contacts from the victim's phone. Works on android 5.0"
+            }
+        ],
+        "skills": [
+            "React JS",
+            "Angular2+",
+            "Bootstrap",
+            "Scemantic UI",
+            "Node JS",
+            "Express JS",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "C#",
+            "Git",
+            "Agile Development",
+            "JIRA"
+        ],
+        "workExperience": [
+            {
+                "designation": "Associate Consultant (2019-2021)",
+                "company": "Capgemini India Pvt. Ltd.",
+                "description": "Capgemini is a French multinational information technology services and consulting company. It is headquartered in Paris, France."
+            },
+            {
+                "designation": "MEAN Stack Developer (2017-2018)",
+                "company": "Celebal Technologies Pvt. Ltd.",
+                "description": "Celebal Technologies is a premier software services company in the field of Data Science, Big Data and Enterprise Cloud.The Company offers artificial intelligence and enterprise cloud services to its clients in India and the United States."
+            }
+        ],
+        "certifications": [
+            {
+                "title": "IBM BlueMix",
+                "description": "IBM bluemix cloud services certification."
+            },
+            {
+                "title": "Google Digital Marketing",
+                "description": "Google's digital marketing certification."
+            },
+            {
+                "title": "Best Performer Capgemini L&D",
+                "description": "Awarded for outstanding performance in Capgemini's L&D program."
+            },
+            {
+                "title": "Academic Excellence",
+                "description": "Awarded for the best final year project and certifications in Secondary and Sr. Secondary."
+            }
+        ]
+    }
 }
