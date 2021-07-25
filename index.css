@@ -69,12 +69,12 @@ a {
 
 .custom-nav-link {
   color: #b3b3b3;
-  font-size: 1.2vw;
+  font-size: 1rem;
   margin-right: 5%;
 }
 .active-custom-nav-link {
   color: #ffc107;
-  font-size: 1.2vw;
+  font-size: 1rem;
   margin-right: 5%;
 }
 .facebook {
